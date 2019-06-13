@@ -1,0 +1,383 @@
+﻿Build started 9/15/2014 7:39:21 PM.
+     1>Project "F:\Projects\IE2D\Libraries\Sources\Scintilla 3.2.3\Scintilla\Scintilla.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\Projects\IE2D\Libraries\Sources\Scintilla 3.2.3\Scintilla\include\\" /I"F:\Projects\IE2D\Libraries\Sources\Scintilla 3.2.3\Scintilla\src\\" /I"F:\Projects\IE2D\Libraries\Sources\Scintilla 3.2.3\Scintilla\lexlib\\" /I"F:\Projects\IE2D\Libraries\Sources\Scintilla 3.2.3\Scintilla\lexers\\" /ZI /nologo /W3 /WX- /Od /Oy- /D STATIC_BUILD /D SCI_LEXER /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt lexers\LexA68k.cxx lexers\LexAbaqus.cxx lexers\LexAda.cxx lexers\LexAPDL.cxx lexers\LexAsm.cxx lexers\LexAsn1.cxx lexers\LexASY.cxx lexers\LexAU3.cxx lexers\LexAVE.cxx lexers\LexAVS.cxx lexers\LexBaan.cxx lexers\LexBash.cxx lexers\LexBasic.cxx lexers\LexBullant.cxx lexers\LexCaml.cxx lexers\LexCLW.cxx lexers\LexCmake.cxx lexers\LexCOBOL.cxx lexers\LexCoffeeScript.cxx lexers\LexConf.cxx lexers\LexCPP.cxx lexers\LexCrontab.cxx lexers\LexCsound.cxx lexers\LexCSS.cxx lexers\LexD.cxx lexers\LexECL.cxx lexers\LexEiffel.cxx lexers\LexErlang.cxx lexers\LexEScript.cxx lexers\LexFlagship.cxx lexers\LexForth.cxx lexers\LexFortran.cxx lexers\LexGAP.cxx lexers\LexGui4Cli.cxx lexers\LexHaskell.cxx lexers\LexHTML.cxx lexers\LexInno.cxx lexers\LexKix.cxx lexers\LexLisp.cxx lexers\LexLout.cxx lexers\LexLua.cxx lexers\LexMagik.cxx lexers\LexMarkdown.cxx lexers\LexMatlab.cxx lexers\LexMetapost.cxx lexers\LexMMIXAL.cxx lexers\LexModula.cxx lexers\LexMPT.cxx lexers\LexMSSQL.cxx lexers\LexMySQL.cxx lexers\LexNimrod.cxx lexers\LexNsis.cxx lexers\LexOpal.cxx lexers\LexOScript.cxx lexers\LexOthers.cxx lexers\LexPascal.cxx lexers\LexPB.cxx lexers\LexPerl.cxx lexers\LexPLM.cxx lexers\LexPO.cxx lexers\LexPOV.cxx lexers\LexPowerPro.cxx lexers\LexPowerShell.cxx lexers\LexProgress.cxx lexers\LexPS.cxx lexers\LexPython.cxx lexers\LexR.cxx lexers\LexRebol.cxx lexers\LexRuby.cxx lexers\LexScriptol.cxx lexers\LexSmalltalk.cxx lexers\LexSML.cxx lexers\LexSorcus.cxx lexers\LexSpecman.cxx lexers\LexSpice.cxx lexers\LexSQL.cxx lexers\LexTACL.cxx lexers\LexTADS3.cxx lexers\LexTAL.cxx lexers\LexTCL.cxx lexers\LexTCMD.cxx lexers\LexTeX.cxx lexers\LexTxt2tags.cxx lexers\LexVB.cxx lexers\LexVerilog.cxx lexers\LexVHDL.cxx lexers\LexVisualProlog.cxx lexers\LexYAML.cxx lexlib\Accessor.cxx lexlib\CharacterSet.cxx lexlib\LexerBase.cxx lexlib\LexerModule.cxx lexlib\LexerNoExceptions.cxx lexlib\LexerSimple.cxx lexlib\PropSetSimple.cxx lexlib\StyleContext.cxx lexlib\WordList.cxx src\AutoComplete.cxx src\CallTip.cxx src\Catalogue.cxx src\CellBuffer.cxx src\CharClassify.cxx src\ContractionState.cxx src\Decoration.cxx src\Document.cxx src\Editor.cxx src\ExternalLexer.cxx src\Indicator.cxx src\KeyMap.cxx src\LineMarker.cxx src\PerLine.cxx src\PositionCache.cxx src\RESearch.cxx src\RunStyles.cxx src\ScintillaBase.cxx src\Selection.cxx src\Style.cxx src\UniConversion.cxx src\ViewStyle.cxx src\XPM.cxx win32\CheckD2D.cxx win32\PlatWin.cxx win32\ScintillaWin.cxx
+         ScintillaWin.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\externallexer.h(36): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\win32\scintillawin.cxx(2195): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         PlatWin.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\win32\platwin.cxx(273): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\win32\platwin.cxx(2112): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\win32\platwin.cxx(2381): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\win32\platwin.cxx(3194): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\win32\platwin.cxx(3206): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\win32\platwin.cxx(3223): warning C4996: 'GetVersionExA': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+         CheckD2D.cxx
+         XPM.cxx
+         ViewStyle.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\viewstyle.cxx(73): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         UniConversion.cxx
+         Style.cxx
+         Selection.cxx
+         ScintillaBase.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\scintillabase.cxx(383): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         RunStyles.cxx
+         RESearch.cxx
+         PositionCache.cxx
+         PerLine.cxx
+         LineMarker.cxx
+         KeyMap.cxx
+         Indicator.cxx
+         ExternalLexer.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\externallexer.h(36): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\externallexer.cxx(71): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         Editor.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(1951): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(1959): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(2218): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(3032): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(3847): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(5906): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(5908): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(5910): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(7128): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(7150): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(9032): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(9056): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(9075): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\editor.cxx(9099): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         Document.cxx
+         Decoration.cxx
+         Generating Code...
+         Compiling...
+         ContractionState.cxx
+         CharClassify.cxx
+         CellBuffer.cxx
+         Catalogue.cxx
+         CallTip.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\calltip.cxx(259): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         AutoComplete.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\autocomplete.cxx(71): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\src\autocomplete.cxx(80): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+         WordList.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexlib\wordlist.cxx(112): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         StyleContext.cxx
+         PropSetSimple.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexlib\propsetsimple.cxx(148): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexlib\propsetsimple.cxx(156): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         LexerSimple.cxx
+         LexerNoExceptions.cxx
+         LexerModule.cxx
+         LexerBase.cxx
+         CharacterSet.cxx
+         Accessor.cxx
+         LexYAML.cxx
+         LexVisualProlog.cxx
+         LexVHDL.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexvhdl.cxx(229): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexvhdl.cxx(243): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexvhdl.cxx(296): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexvhdl.cxx(385): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         LexVerilog.cxx
+         LexVB.cxx
+         Generating Code...
+         Compiling...
+         LexTxt2tags.cxx
+         LexTeX.cxx
+         LexTCMD.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lextcmd.cxx(246): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+         LexTCL.cxx
+         LexTAL.cxx
+         LexTADS3.cxx
+         LexTACL.cxx
+         LexSQL.cxx
+         LexSpice.cxx
+         LexSpecman.cxx
+         LexSorcus.cxx
+         LexSML.cxx
+         LexSmalltalk.cxx
+         LexScriptol.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexscriptol.cxx(50): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         LexRuby.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexruby.cxx(143): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         LexRebol.cxx
+         LexR.cxx
+         LexPython.cxx
+         LexPS.cxx
+         LexProgress.cxx
+         Generating Code...
+         Compiling...
+         LexPowerShell.cxx
+         LexPowerPro.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexpowerpro.cxx(157): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         LexPOV.cxx
+         LexPO.cxx
+         LexPLM.cxx
+         LexPerl.cxx
+         LexPB.cxx
+         LexPascal.cxx
+         LexOthers.cxx
+         LexOScript.cxx
+         LexOpal.cxx
+         LexNsis.cxx
+         LexNimrod.cxx
+         LexMySQL.cxx
+         LexMSSQL.cxx
+         LexMPT.cxx
+         LexModula.cxx
+         LexMMIXAL.cxx
+         LexMetapost.cxx
+         LexMatlab.cxx
+         Generating Code...
+         Compiling...
+         LexMarkdown.cxx
+         LexMagik.cxx
+         LexLua.cxx
+         LexLout.cxx
+         LexLisp.cxx
+         LexKix.cxx
+         LexInno.cxx
+         LexHTML.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexhtml.cxx(380): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexhtml.cxx(939): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexhtml.cxx(941): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexhtml.cxx(1010): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexhtml.cxx(1012): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexhtml.cxx(1926): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexhtml.cxx(1936): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexhtml.cxx(2056): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexhtml.cxx(2066): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         LexHaskell.cxx
+         LexGui4Cli.cxx
+         LexGAP.cxx
+         LexFortran.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexfortran.cxx(415): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexfortran.cxx(445): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         LexForth.cxx
+         LexFlagship.cxx
+         LexEScript.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexescript.cxx(240): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexescript.cxx(255): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         LexErlang.cxx
+         LexEiffel.cxx
+         LexECL.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexecl.cxx(176): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+         LexD.cxx
+         LexCSS.cxx
+         Generating Code...
+         Compiling...
+         LexCsound.cxx
+         LexCrontab.cxx
+         LexCPP.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexcpp.cxx(1158): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         LexConf.cxx
+         LexCoffeeScript.cxx
+         LexCOBOL.cxx
+         LexCmake.cxx
+         LexCLW.cxx
+         LexCaml.cxx
+         LexBullant.cxx
+         LexBasic.cxx
+         LexBash.cxx
+         LexBaan.cxx
+         LexAVS.cxx
+         LexAVE.cxx
+         LexAU3.cxx
+     1>f:\projects\ie2d\libraries\sources\scintilla 3.2.3\scintilla\lexers\lexau3.cxx(243): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         LexASY.cxx
+         LexAsn1.cxx
+         LexAsm.cxx
+         LexAPDL.cxx
+         Generating Code...
+         Compiling...
+         LexAda.cxx
+         LexAbaqus.cxx
+         LexA68k.cxx
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"F:\Projects\IE2D\Libraries\Sources\Scintilla 3.2.3\Debug\Scintilla_d.lib" /NOLOGO Debug\LexA68k.obj
+         Debug\LexAbaqus.obj
+         Debug\LexAda.obj
+         Debug\LexAPDL.obj
+         Debug\LexAsm.obj
+         Debug\LexAsn1.obj
+         Debug\LexASY.obj
+         Debug\LexAU3.obj
+         Debug\LexAVE.obj
+         Debug\LexAVS.obj
+         Debug\LexBaan.obj
+         Debug\LexBash.obj
+         Debug\LexBasic.obj
+         Debug\LexBullant.obj
+         Debug\LexCaml.obj
+         Debug\LexCLW.obj
+         Debug\LexCmake.obj
+         Debug\LexCOBOL.obj
+         Debug\LexCoffeeScript.obj
+         Debug\LexConf.obj
+         Debug\LexCPP.obj
+         Debug\LexCrontab.obj
+         Debug\LexCsound.obj
+         Debug\LexCSS.obj
+         Debug\LexD.obj
+         Debug\LexECL.obj
+         Debug\LexEiffel.obj
+         Debug\LexErlang.obj
+         Debug\LexEScript.obj
+         Debug\LexFlagship.obj
+         Debug\LexForth.obj
+         Debug\LexFortran.obj
+         Debug\LexGAP.obj
+         Debug\LexGui4Cli.obj
+         Debug\LexHaskell.obj
+         Debug\LexHTML.obj
+         Debug\LexInno.obj
+         Debug\LexKix.obj
+         Debug\LexLisp.obj
+         Debug\LexLout.obj
+         Debug\LexLua.obj
+         Debug\LexMagik.obj
+         Debug\LexMarkdown.obj
+         Debug\LexMatlab.obj
+         Debug\LexMetapost.obj
+         Debug\LexMMIXAL.obj
+         Debug\LexModula.obj
+         Debug\LexMPT.obj
+         Debug\LexMSSQL.obj
+         Debug\LexMySQL.obj
+         Debug\LexNimrod.obj
+         Debug\LexNsis.obj
+         Debug\LexOpal.obj
+         Debug\LexOScript.obj
+         Debug\LexOthers.obj
+         Debug\LexPascal.obj
+         Debug\LexPB.obj
+         Debug\LexPerl.obj
+         Debug\LexPLM.obj
+         Debug\LexPO.obj
+         Debug\LexPOV.obj
+         Debug\LexPowerPro.obj
+         Debug\LexPowerShell.obj
+         Debug\LexProgress.obj
+         Debug\LexPS.obj
+         Debug\LexPython.obj
+         Debug\LexR.obj
+         Debug\LexRebol.obj
+         Debug\LexRuby.obj
+         Debug\LexScriptol.obj
+         Debug\LexSmalltalk.obj
+         Debug\LexSML.obj
+         Debug\LexSorcus.obj
+         Debug\LexSpecman.obj
+         Debug\LexSpice.obj
+         Debug\LexSQL.obj
+         Debug\LexTACL.obj
+         Debug\LexTADS3.obj
+         Debug\LexTAL.obj
+         Debug\LexTCL.obj
+         Debug\LexTCMD.obj
+         Debug\LexTeX.obj
+         Debug\LexTxt2tags.obj
+         Debug\LexVB.obj
+         Debug\LexVerilog.obj
+         Debug\LexVHDL.obj
+         Debug\LexVisualProlog.obj
+         Debug\LexYAML.obj
+         Debug\Accessor.obj
+         Debug\CharacterSet.obj
+         Debug\LexerBase.obj
+         Debug\LexerModule.obj
+         Debug\LexerNoExceptions.obj
+         Debug\LexerSimple.obj
+         Debug\PropSetSimple.obj
+         Debug\StyleContext.obj
+         Debug\WordList.obj
+         Debug\AutoComplete.obj
+         Debug\CallTip.obj
+         Debug\Catalogue.obj
+         Debug\CellBuffer.obj
+         Debug\CharClassify.obj
+         Debug\ContractionState.obj
+         Debug\Decoration.obj
+         Debug\Document.obj
+         Debug\Editor.obj
+         Debug\ExternalLexer.obj
+         Debug\Indicator.obj
+         Debug\KeyMap.obj
+         Debug\LineMarker.obj
+         Debug\PerLine.obj
+         Debug\PositionCache.obj
+         Debug\RESearch.obj
+         Debug\RunStyles.obj
+         Debug\ScintillaBase.obj
+         Debug\Selection.obj
+         Debug\Style.obj
+         Debug\UniConversion.obj
+         Debug\ViewStyle.obj
+         Debug\XPM.obj
+         Debug\CheckD2D.obj
+         Debug\PlatWin.obj
+         Debug\ScintillaWin.obj
+     1>CheckD2D.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Scintilla.vcxproj -> F:\Projects\IE2D\Libraries\Sources\Scintilla 3.2.3\Debug\Scintilla_d.lib
+     1>Done Building Project "F:\Projects\IE2D\Libraries\Sources\Scintilla 3.2.3\Scintilla\Scintilla.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.17

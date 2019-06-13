@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Irrlicht", "Irrlicht_mobile6.vcxproj", "{E08E042A-6C45-411B-92BE-3CC31331019F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Mobile 6 Professional SDK (ARMV4I) = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		Release|Windows Mobile 6 Professional SDK (ARMV4I) = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E08E042A-6C45-411B-92BE-3CC31331019F}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Release - Fast FPU|Win32
+		{E08E042A-6C45-411B-92BE-3CC31331019F}.Release|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Release - Fast FPU|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
